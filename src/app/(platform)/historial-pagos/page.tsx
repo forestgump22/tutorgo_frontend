@@ -16,16 +16,7 @@ import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Loader2, Receipt, TrendingDown, TrendingUp, AlertTriangle, User as UserIcon, CreditCard as CreditCardIcon, Clock, CheckCircle, XCircle, ShoppingCart, Search, Download, Calendar, ArrowRight, ArrowLeft } from "lucide-react";
-
-// --- HOOK PERSONALIZADO ---
-export function useDebounce<T>(value: T, delay: number): T {
-    const [debouncedValue, setDebouncedValue] = useState<T>(value);
-    useEffect(() => {
-        const handler = setTimeout(() => { setDebouncedValue(value); }, delay);
-        return () => { clearTimeout(handler); };
-    }, [value, delay]);
-    return debouncedValue;
-}
+import { useDebounce } from '@/hooks/use-debounce'; 
 
 export default function HistorialPagosPage() {
     const user = useAuthStore((state) => state.user);
