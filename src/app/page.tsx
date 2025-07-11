@@ -77,7 +77,6 @@ export default function LandingPage() {
                       Comenzar Ahora
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
-                    <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                   <Button variant="outline" size="lg">
                     Ver Demo
