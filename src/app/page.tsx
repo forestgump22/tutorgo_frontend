@@ -75,8 +75,8 @@ export default function LandingPage() {
                   <Button  size="lg" className="bg-blue-600 hover:bg-blue-700">
                     <Link href="/login">
                       Comenzar Ahora
-                    </Link>
                       <ArrowRight className="ml-2 h-4 w-4" />
+                    </Link>
                   </Button>
                   <Button variant="outline" size="lg">
                     Ver Demo
@@ -413,7 +413,7 @@ export default function LandingPage() {
               <Card className="border-2 hover:border-indigo-200 transition-all duration-300 hover:shadow-lg">
                 <CardHeader className="text-center">
                   <Image
-                  src={"/imagenes/cesar.png"}
+                  src={"/imagenes/cesar.PNG"}
                   alt="Foto de Cesar"
                   width={80}
                   height={80}
