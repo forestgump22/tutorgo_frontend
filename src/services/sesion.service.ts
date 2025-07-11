@@ -1,7 +1,6 @@
 // src/services/sesion.service.ts
 import api from '@/lib/api';
 import { SesionResponse, Disponibilidad } from '@/models/sesion.models';
-// La lógica de pago y reserva se ha movido a sus propios servicios.
 
 export const getMisTutorias = async (): Promise<SesionResponse[]> => {
     try {
