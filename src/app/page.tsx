@@ -434,7 +434,7 @@ export default function LandingPage() {
               <Card className="border-2 hover:border-indigo-200 transition-all duration-300 hover:shadow-lg">
                 <CardHeader className="text-center">
                   <Image
-                  src={"/imagenes/Imanol.png"}
+                  src={"/imagenes/Imanol.PNG"}
                   alt="Foto de Imanol"
                   width={80}
                   height={80}
@@ -456,7 +456,7 @@ export default function LandingPage() {
               <Card className="border-2 hover:border-indigo-200 transition-all duration-300 hover:shadow-lg">
                 <CardHeader className="text-center">
                   <Image
-                  src={"/imagenes/Ian.png"}
+                  src={"/imagenes/Ian.PNG"}
                   alt="Foto de Ian"
                   width={80}
                   height={80}
@@ -477,7 +477,7 @@ export default function LandingPage() {
               <Card className="border-2 hover:border-indigo-200 transition-all duration-300 hover:shadow-lg lg:col-start-1 lg:col-end-2 lg:mx-auto">
                 <CardHeader className="text-center">
                   <Image
-                  src={"/imagenes/Bruno.png"}
+                  src={"/imagenes/Bruno.PNG"}
                   alt="Foto de  Bruno"
                   width={80}
                   height={80}
@@ -498,7 +498,7 @@ export default function LandingPage() {
               <Card className="border-2 hover:border-indigo-200 transition-all duration-300 hover:shadow-lg lg:col-start-3 lg:col-end-4 lg:mx-auto">
                 <CardHeader className="text-center">
                   <Image
-                  src={"/imagenes/Christian.png"}
+                  src={"/imagenes/Christian.PNG"}
                   alt="Foto de Chrisian"
                   width={80}
                   height={80}
