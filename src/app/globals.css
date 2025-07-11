@@ -92,3 +92,15 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.tutor-card-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+.tutor-card-link:hover {
+  text-decoration: underline;
+}
