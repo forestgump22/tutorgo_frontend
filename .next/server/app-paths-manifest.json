@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/buscar-tutores/page": "app/buscar-tutores/page.js",
+  "/api/ai/route": "app/api/ai/route.js",
+  "/page": "app/page.js",
+  "/(platform)/cambiar-contrasena/page": "app/(platform)/cambiar-contrasena/page.js",
+  "/(platform)/dashboard/page": "app/(platform)/dashboard/page.js",
+  "/(platform)/eliminar-cuenta/page": "app/(platform)/eliminar-cuenta/page.js",
+  "/(platform)/historial-pagos/page": "app/(platform)/historial-pagos/page.js",
+  "/(platform)/mi-disponibilidad/page": "app/(platform)/mi-disponibilidad/page.js",
+  "/(platform)/checkout/[pagoId]/page": "app/(platform)/checkout/[pagoId]/page.js",
+  "/(platform)/mis-clases/page": "app/(platform)/mis-clases/page.js",
+  "/(platform)/mis-notificaciones/page": "app/(platform)/mis-notificaciones/page.js",
+  "/(platform)/perfil/page": "app/(platform)/perfil/page.js",
+  "/(platform)/mis-tutorias/page": "app/(platform)/mis-tutorias/page.js",
+  "/(platform)/metodos-pago/page": "app/(platform)/metodos-pago/page.js",
+  "/(platform)/tutores/[tutorId]/page": "app/(platform)/tutores/[tutorId]/page.js"
+}
