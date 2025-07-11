@@ -18,6 +18,7 @@ import Link from "next/link"
 import { Footer } from "@/components/shared/Footer"
 import FloatingChat, { ChatProvider } from "@/components/ai/floating-chat"
 
+
 export default function LandingPage() {
   return (
     <ChatProvider>
@@ -71,10 +72,8 @@ export default function LandingPage() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                    <Link href="/login">
-                      Comenzar Ahora
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Link>
+                    Comenzar Ahora
+                    <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                   <Button variant="outline" size="lg">
                     Ver Demo
@@ -243,11 +242,7 @@ export default function LandingPage() {
                     <span>Soporte académico continuo</span>
                   </li>
                 </ul>
-                <Button className="w-fit bg-green-600 hover:bg-green-700">
-                  <Link href={"/register"}>
-                  Únete como Estudiante
-                  </Link>
-                </Button>
+                <Button className="w-fit bg-green-600 hover:bg-green-700">Únete como Estudiante</Button>
               </div>
               <Image
                 src="/imagenes/paraestudiantes2.jpg"
@@ -299,11 +294,7 @@ export default function LandingPage() {
                     <span>Sistema de reputación y reseñas</span>
                   </li>
                 </ul>
-                <Button className="w-fit bg-orange-600 hover:bg-orange-700">
-                  <Link href={"/register"}>
-                  Únete como Tutor
-                  </Link>
-                </Button>
+                <Button className="w-fit bg-orange-600 hover:bg-orange-700">Únete como Tutor</Button>
               </div>
             </div>
           </div>
@@ -572,8 +563,8 @@ export default function LandingPage() {
         </section>
       </main>
       
-      <FloatingChat />
-      <Footer />
+      <FloatingChat/>
+      <Footer/>
     </div>
     </ChatProvider>
   )

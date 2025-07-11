@@ -22,11 +22,10 @@ const renderStars = (rating: number) => {
   return stars;
 };
 
-export default async function TutorProfilePage({ params }: { params: Promise<{ tutorId: string }> }) {
-  const { tutorId } = await params;
-  const tutorIdNumber = parseInt(tutorId);
+export default async function TutorProfilePage({ params }: { params: { tutorId: string } }) {
+  const tutorId = Number(params.tutorId);
 
-  if (isNaN(tutorIdNumber)) {
+  if (isNaN(tutorId)) {
     return (
         <div className="text-center py-20">
             <h1 className="text-2xl font-bold text-red-600">ID de Tutor Inválido</h1>
@@ -39,7 +38,7 @@ export default async function TutorProfilePage({ params }: { params: Promise<{ t
   let error: string | null = null;
 
   try {
-    tutor = await getTutorProfileById(tutorIdNumber);
+    tutor = await getTutorProfileById(tutorId);
   } catch (e: any) {
     error = e.message;
   }
