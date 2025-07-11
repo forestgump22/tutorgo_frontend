@@ -75,8 +75,8 @@ export default function LandingPage() {
                   <Button  size="lg" className="bg-blue-600 hover:bg-blue-700">
                     <Link href="/login">
                       Comenzar Ahora
-                      <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
+                      <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                   <Button variant="outline" size="lg">
                     Ver Demo
